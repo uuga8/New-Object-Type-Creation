@@ -18,4 +18,3 @@ class IP(object):
         c_sum = self.c + other.c
         d_sum = self.d + other.d
         return IP(a_sum, b_sum, c_sum, d_sum)
-print(IP(1, 2, 3, 4))
